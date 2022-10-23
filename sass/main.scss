@@ -1,0 +1,35 @@
+
+
+// UTILS
+@import "./utils/vars";
+
+// BASE
+@import "./base/base";
+@import "./base/reset";
+@import "./base/conteiner";
+
+// COMPONENTS
+@import "./components/logo";
+@import "./components/btn";
+@import "./components/contacts";
+@import "./components/socials";
+@import "./components/modal/module";
+
+
+
+
+// LAYOUTS
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/peculiarity";
+@import "./layouts/progects";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/footer";
+@import "./layouts/portfolio";
+
+
+
+
+
+
