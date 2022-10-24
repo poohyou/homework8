@@ -17,14 +17,88 @@
 <body>
   <header>
 
-    <div class="conteiner conteiner-header">
+    <div class="conteiner conteiner-header mobile-menu__conteiner">
       <!-- logo -->
 
       <a class="logo" href="/">
         <p class="logo__studio">
           <span class="logo__web">Web</span>Studio
         </p>
+
+        <button type="button" class="menu-open__btn">
+        <svg width="40" height="40">
+          <use href="./images/sprite/symbol-defs.svg#icon-burger"></use>
+        </svg>
+      </button>
       </a>
+
+
+
+
+    <!-- mobile menu -->
+
+      <div class="mobile-menu">
+        <div class="conteiner mobile-menu__conteiner">
+
+         <button type="button" class="mobile-menu__close-btn">
+           <svg class="mobile-menu__close-icon" width="40" height="40">
+             <use href="./images/sprite/symbol-defs.svg#icon-close_burger"></use>
+           </svg>
+         </button>
+      
+         <ul class="mobile-menu-nav">
+          <li class="mobile-menu-nav__list">
+           <a class="mobile-menu-nav__active" href="/">Студія</a>
+          </li>
+          <li class="mobile-menu-nav__list">
+           <a class="mobile-menu-nav__place" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="mobile-menu-nav__list">
+           <a class="mobile-menu-nav__kontact" href="">Контакти</a>
+          </li>
+         </ul>
+
+         
+         <ul class="mobile-menu-contacts">
+
+          <li>
+            <a class="mobile-menu-contacts--tel" href="tel:+380961111111">
+              +38 096 111 11 11
+            </a>
+          </li>
+
+          <li>
+            <a class="mobile-menu-contacts--mail" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="mobile-menu-socials">
+          <li>
+            <a class="mobile-menu-socials__link" href="Instagram">Instagram</a>
+          </li>
+          <li>
+            <a class="mobile-menu-socials__link" href="Twitter">Twitter</a>
+          </li>
+          <li>
+            <a class="mobile-menu-socials__link" href="Facebook">Facebook</a>
+          </li>
+          <li>
+            <a class="mobile-menu-socials__link mobile-menu-socials__link--border" href="LinkedIn">LinkedIn</a>
+          </li>
+        </ul>
+
+
+         
+         <a href=""></a>
+
+      </div>
+      </div>
+
+
+
 
       <!-- navigation -->
       <nav class="nav">
@@ -83,7 +157,7 @@
   <main>
     <!-- hero -->
 
-    <section>
+    <!-- <section>
       <div class="conteiner hero">
         <h1 class="hero__title">
           ЕФЕКТИВНІ РІШЕННЯ ДЛЯ
@@ -92,13 +166,13 @@
 
         <button data-modal-open class="btn hero__btn" type="button">Замовити послугу</button>
       </div>
-    </section>
+    </section> -->
 
 
 
 
     <!-- peculiarity -->
-    <section class="conteiner">
+    <!-- <section class="conteiner">
       <ul class="peculiarity peculiarity-group">
 
         <li>
@@ -154,10 +228,10 @@
         </li>
 
       </ul>
-    </section>
+    </section> -->
     <!-- progects -->
 
-    <section class="progect">
+    <!-- <section class="progect">
       <div class="conteiner">
         <h2 class="progect__title progect__title--dec">Чим ми займаємося</h2>
         <ul class="progect__img">
@@ -241,11 +315,11 @@
 
 
 
-    </section>
+    </section> -->
 
     <!-- team -->
     
-    <section class="team">
+    <!-- <section class="team">
       <div class="conteiner">
         <h2 class="team__title">Наша команда</h2>
         <ul class="team__group">
@@ -280,12 +354,12 @@
 
             <div class="team__info team__info--dec">
               <p class="team__name team__name--dec">Ігор Дем'яненко</p>
-              <p class="team__job team__job--dec">Product Designer</p>
+              <p class="team__job team__job--dec">Product Designer</p> -->
 
 
 <!--=========== Socials -->
 
-              <ul class="socials socials--dec">
+              <!-- <ul class="socials socials--dec">
 
                 <li>
                   <a class="socials__link" href="">
@@ -530,10 +604,10 @@
 
         </ul>
       </div>
-    </section>
+    </section> -->
 
     <!-- OUR CLIENTS -->
-    <section>
+    <!-- <section>
       <div class="conteiner client">
         <h2 class="client__title">
           Постійні клієнти
@@ -577,11 +651,11 @@
 
         </ul>
       </div>
-    </section>
+    </section> -->
 
   </main>
 
-  <footer>
+  <!-- <footer>
     <div class="footer-conteiner">
       <div class="conteiner footer-group">
 
@@ -679,10 +753,10 @@
 
       </div>
     </div>
-  </footer>
+  </footer> -->
 
   <!-- MODAL WINDOW -->
- <div class="backdrop is-hidden" data-modal>
+ <!-- <div class="backdrop is-hidden" data-modal>
 
   <div class="modal">
     <button class="modal__close" data-modal-close>
@@ -789,7 +863,7 @@
     </form>
   </div>
 
- </div>
+ </div> -->
 
  <script src="./js/modal.js"></script>
 </body>
