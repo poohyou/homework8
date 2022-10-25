@@ -25,7 +25,7 @@
           <span class="logo__web">Web</span>Studio
         </p>
 
-        <button type="button" class="menu-open__btn">
+        <button type="button" class="menu-open__btn" data-menu-open>
         <svg width="40" height="40">
           <use href="./images/sprite/symbol-defs.svg#icon-burger"></use>
         </svg>
@@ -37,10 +37,10 @@
 
     <!-- mobile menu -->
 
-      <div class="mobile-menu">
+      <div class="mobile-menu" data-menu>
         <div class="conteiner mobile-menu__conteiner">
 
-         <button type="button" class="mobile-menu__close-btn">
+         <button type="button" class="mobile-menu__close-btn" data-menu-close>
            <svg class="mobile-menu__close-icon" width="40" height="40">
              <use href="./images/sprite/symbol-defs.svg#icon-close_burger"></use>
            </svg>
@@ -866,6 +866,7 @@
  </div> -->
 
  <script src="./js/modal.js"></script>
+ <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>

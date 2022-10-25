@@ -343,11 +343,6 @@ img {
   .nav {
     display: none;
   }
-  .menu-open__btn {
-    background-color: transparent;
-    border: 0;
-    padding: 0;
-  }
   .logo {
     display: flex;
     padding: 16px 0px;
@@ -361,103 +356,112 @@ img {
   width: 145px;
 }
 
-.mobile-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  z-index: 100;
-  background-color: white;
+@media screen and (max-width: 479px) {
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: 100;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .mobile-menu__conteiner {
+    position: relative;
+  }
+  .mobile-menu__close-btn {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+  }
+  .mobile-menu__close-btn:hover, .mobile-menu__close-btn:focus {
+    fill: #2196F3;
+  }
+  .menu-open__btn {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+  }
+  .mobile-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .mobile-menu-nav {
+    padding-left: 25px;
+    padding-top: 48px;
+  }
+  .mobile-menu-nav__list {
+    display: block;
+    margin-bottom: 32px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+  }
+  .mobile-menu-nav__place {
+    color: var(--title-text-color);
+  }
+  .mobile-menu-nav__kontact {
+    display: block;
+    color: var(--title-text-color);
+    margin-bottom: 302px;
+  }
+  .mobile-menu-nav__active {
+    color: #2196F3;
+  }
+  .mobile-menu-contacts--tel {
+    display: block;
+    margin-bottom: 32px;
+    padding-left: 25px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+  }
+  .mobile-menu-contacts--mail {
+    display: block;
+    padding-left: 25px;
+    margin-bottom: 64px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+    color: #757575;
+  }
+  .mobile-menu-socials {
+    display: flex;
+    padding-left: 15px;
+  }
+  .mobile-menu-socials__link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    padding: 0px 10px;
+    color: #2196F3;
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+  }
+  .mobile-menu-socials__link--border {
+    border-right: none;
+  }
 }
-.mobile-menu__conteiner {
-  position: relative;
-}
-.mobile-menu__close-btn {
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  background-color: transparent;
-  border: 0;
-  padding: 0;
-}
-.mobile-menu__close-btn:hover, .mobile-menu__close-btn:focus {
-  fill: #2196F3;
-}
-
-.mobile-menu-nav {
-  padding-left: 25px;
-  padding-top: 48px;
-}
-.mobile-menu-nav__list {
-  display: block;
-  margin-bottom: 32px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-}
-.mobile-menu-nav__place {
-  color: var(--title-text-color);
-}
-.mobile-menu-nav__kontact {
-  display: block;
-  color: var(--title-text-color);
-  margin-bottom: 302px;
-}
-.mobile-menu-nav__active {
-  color: #2196F3;
-}
-
-.mobile-menu-contacts--tel {
-  display: block;
-  margin-bottom: 32px;
-  padding-left: 25px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 34px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  color: #2196F3;
-}
-
-.mobile-menu-contacts--mail {
-  display: block;
-  padding-left: 25px;
-  margin-bottom: 64px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 1.16;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-
-.mobile-menu-socials {
-  display: flex;
-  padding-left: 15px;
-}
-
-.mobile-menu-socials__link {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.22;
-  letter-spacing: 0.02em;
-  padding: 0px 10px;
-  color: #2196F3;
-  border-right: 1px solid rgba(33, 33, 33, 0.2);
-}
-.mobile-menu-socials__link--border {
-  border-right: none;
-}
-
 .hero {
   display: flex;
   flex-direction: column;
