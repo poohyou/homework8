@@ -722,8 +722,8 @@ img {
   .peculiarity {
     display: flex;
     flex-wrap: wrap;
+    gap: 4%;
     row-gap: 30px;
-    column-gap: 30px;
   }
   .peculiarity-group {
     display: flex;
@@ -820,6 +820,13 @@ img {
   background-color: var(--white-color);
 }
 
+.team-conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 767px) {
   .team__group {
     display: flex;
@@ -846,8 +853,10 @@ img {
 @media screen and (min-width: 768px) {
   .team__group {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+    max-width: 768px;
     gap: 30px;
     row-gap: 30px;
   }
@@ -871,6 +880,7 @@ img {
   }
   .team__group {
     gap: 30px;
+    width: 1200px;
   }
   .team__title {
     font-size: 36px;
@@ -887,34 +897,29 @@ img {
   }
 }
 .client {
-  padding-top: 60px;
+  padding-top: 94px;
 }
 .client__title {
   display: block;
   text-align: center;
-  font-size: 28px;
-  line-height: 1.17;
-  margin-bottom: 30px;
-  letter-spacing: 0.03em;
-}
-.client__list {
-  display: flex;
-  flex-wrap: wrap;
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 50px;
 }
 .client__list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 94px;
 }
 .client__img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 52px;
-  padding-right: 52px;
-  width: 210px;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 170px;
   height: 92px;
   fill: var(--social-icons);
   border: 1px solid #AFB1B8;

@@ -49,6 +49,14 @@
 
             }
 
+
+            .team-conteiner {
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+            }
+
            
 
 @media screen and (max-width: 767px) { 
@@ -95,8 +103,10 @@
 @media screen and (min-width: 768px) { 
    .team__group {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
+      align-items: center;
       flex-wrap: wrap;
+      max-width: 768px;
       gap: 30px;
       row-gap: 30px;
    }
@@ -133,6 +143,7 @@
    
    &__group {
       gap: 30px;
+      width: 1200px;
    }
    
    &__title{
