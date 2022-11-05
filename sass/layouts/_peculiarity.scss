@@ -78,7 +78,7 @@
 
 
 
-@media screen and (min-width: 768px) { 
+@media screen and (max-width: 1199px) { 
     .peculiarity {
         display: flex;
         flex-wrap: wrap;
@@ -94,8 +94,6 @@
        
     }
 
-
-
     }
 
 }
@@ -109,10 +107,18 @@
 @media screen and (min-width: 1200px) { 
     .peculiarity {
             display: flex;
-            flex-wrap: nowrap;
+            justify-content: space-between;
             padding-bottom: 47px;
             padding-top: 94px;
+           
 
+
+            &-group {
+                max-width: 270px;
+            }
+
+
+            
            
     }
 

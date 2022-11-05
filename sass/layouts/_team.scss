@@ -101,7 +101,7 @@
 
 
 @media screen and (min-width: 768px) { 
-   .team__group {
+   .team__group {   
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -127,9 +127,21 @@
          padding-top: 30px;
          }
 
+      }
 
 
-}
+
+
+// @media screen and (max-width: 1199px) { 
+//    .team__group {
+//       display: flex;
+//       justify-content: space-between;
+//       align-items: center;
+//       flex-wrap: wrap;}
+
+
+
+// }
 
 
 
@@ -140,9 +152,16 @@
       padding-top: 94px;
       padding-bottom: 94px;
 
+
+  
    
    &__group {
-      gap: 30px;
+    
+     flex-wrap: nowrap;
+     justify-content: center;
+     align-items: center;
+
+      gap: 5%;
       width: 1200px;
    }
    
@@ -163,6 +182,7 @@
             }
 
 }
+
 
 }
 
