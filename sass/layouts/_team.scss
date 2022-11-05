@@ -54,7 +54,12 @@
 @media screen and (max-width: 767px) { 
 
    
-      
+        .team__group {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+        }
         
       
         .team__box {
@@ -62,6 +67,8 @@
          flex-direction: column;
          align-items: center;
          justify-content: center;
+
+         width: 450px;
 
           }
 
@@ -90,7 +97,8 @@
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 30px;
+      gap: 4.8%;
+      row-gap: 30px;
    }
 
 
@@ -127,7 +135,9 @@
       padding-bottom: 94px;
 
    
-   
+   &__group {
+      gap: 30px;
+   }
    
    &__title{
           font-size: 36px;
