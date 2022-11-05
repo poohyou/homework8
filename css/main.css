@@ -671,7 +671,7 @@ img {
 }
 .peculiarity {
   padding-top: 60px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 .peculiarity__title {
   font-size: 14px;
@@ -706,7 +706,7 @@ img {
   }
   .peculiarity__img--dec {
     background-color: var(--bck-portfolio);
-    min-width: 450px;
+    min-width: 360px;
     height: 120px;
   }
   .peculiarity__title {
@@ -715,7 +715,7 @@ img {
     justify-content: center;
   }
   .peculiarity__text {
-    min-width: 450px;
+    min-width: 360px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -724,12 +724,17 @@ img {
     flex-wrap: wrap;
     row-gap: 30px;
     column-gap: 30px;
-    padding-bottom: 60px;
   }
   .peculiarity-group {
     display: flex;
     flex-direction: column;
     width: 47%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .peculiarity {
+    display: flex;
+    flex-wrap: nowrap;
   }
 }
 .progect__title {
