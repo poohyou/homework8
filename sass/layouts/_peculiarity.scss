@@ -20,6 +20,7 @@
 }
 
 &__img {
+    width: 100%;
     padding: 25px 0px;
     display: flex;
     justify-content: center;
@@ -40,6 +41,7 @@
     .peculiarity {
     display: flex;
     flex-direction: column;
+    
    
     
      
@@ -78,7 +80,7 @@
 
 
 
-@media screen and (max-width: 1199px) { 
+@media screen and (min-width: 768px) { 
     .peculiarity {
         display: flex;
         flex-wrap: wrap;
@@ -107,6 +109,7 @@
 @media screen and (min-width: 1200px) { 
     .peculiarity {
             display: flex;
+            flex-wrap: unset;
             justify-content: space-between;
             padding-bottom: 47px;
             padding-top: 94px;

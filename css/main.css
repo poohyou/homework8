@@ -687,6 +687,7 @@ img {
   letter-spacing: 0.03em;
 }
 .peculiarity__img {
+  width: 100%;
   padding: 25px 0px;
   display: flex;
   justify-content: center;
@@ -718,7 +719,7 @@ img {
     min-width: 360px;
   }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .peculiarity {
     display: flex;
     flex-wrap: wrap;
@@ -734,6 +735,7 @@ img {
 @media screen and (min-width: 1200px) {
   .peculiarity {
     display: flex;
+    flex-wrap: unset;
     justify-content: space-between;
     padding-bottom: 47px;
     padding-top: 94px;
