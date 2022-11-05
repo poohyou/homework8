@@ -1,4 +1,10 @@
-.peculiarity__title {
+.peculiarity {
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+
+
+&__title {
     font-size: 14px;
     line-height: 1.2;
     margin-bottom: 10px;
@@ -6,15 +12,26 @@
     letter-spacing: 0.03em;
 }
 
-.peculiarity__text {
+&__text {
     color: var(--primary-text-color);
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
-.peculiarity__img {
+&__img {
     padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+   &__img--dec {
+    background-color: var(--bck-portfolio);
+   }
+
+
+
 }
 
 
@@ -23,8 +40,7 @@
     .peculiarity {
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
-    padding-bottom: 30px;
+    
      
     &-group:not(:last-child) {
        margin-bottom: 30px;
@@ -32,12 +48,7 @@
 
     
 
-      &__img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-      }
+  
 
                &__img--dec {
                 background-color: var(--bck-portfolio);
@@ -53,7 +64,6 @@
         
       &__text {
            min-width: 450px;
-        //    margin-bottom: 30px;
             }
     }
 
@@ -68,6 +78,25 @@
 
 
 @media screen and (min-width: 768px) { 
+    .peculiarity {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 30px;
+      column-gap: 30px;
+
+      padding-bottom: 60px;
+
+     
+
+
+      &-group {
+        display: flex;
+        flex-direction: column;
+        width: 47%;
+      }
+
+    
+    }
 
 
 
