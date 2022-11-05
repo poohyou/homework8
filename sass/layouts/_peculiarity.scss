@@ -1,40 +1,100 @@
-.peculiarity {
+
+@media screen and (max-width: 767px) {
+    .peculiarity {
     display: flex;
+    flex-direction: column;
+ 
 
+      &-group {
+        padding-top: 60px;
+      }
 
-    &-group {
-    padding-top: 94px;
-    padding-bottom: 47px;
-    gap: 30px;
+      &__img {
+        margin-bottom: 30px;
+        display: flex;
+
+        justify-content: center;
+         align-items: center;
+      }
+
+               &__img--dec {
+                background-color: var(--bck-portfolio);
+                min-width: 450px;
+                height: 120px;
+                }
+
+      &__title {  
+           display: flex;
+           align-items: center;
+           justify-content: center;
+
+            font-size: 14px;
+            line-height: 1.2;
+            margin-bottom: 10px;
+            letter-spacing: 0.03em;
+            }
+        
+      &__text {
+            width: 450px;
+            color: var(--primary-text-color);
+            font-size: 14px;
+            line-height: 1.7;
+            }
     }
 
-    &__img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-bottom: 30px;
-    border-radius: 4px;
-    }
 
-        &__img--dec {
-        background-color: var(--bck-portfolio);
-        width: 270px;
-        height: 120px;
-        }
-          
-    &__title {
-    font-size: 14px;
-    line-height: 1.2;
-    margin-bottom: 10px;
-    }
 
-    &__text {
-    width: 255px;
-    color: var(--primary-text-color);
-    font-size: 14px;
-    line-height: 1.7;
-    }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+// .peculiarity {
+//     display: flex;
+
+
+//     &-group {
+//     padding-top: 94px;
+//     padding-bottom: 47px;
+//     gap: 30px;
+//     }
+
+//     &__img {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     padding-left: 100px;
+//     padding-right: 100px;
+//     margin-bottom: 30px;
+//     border-radius: 4px;
+//     }
+
+//         &__img--dec {
+//         background-color: var(--bck-portfolio);
+//         width: 270px;
+//         height: 120px;
+//         }
+          
+//     &__title {
+//     font-size: 14px;
+//     line-height: 1.2;
+//     margin-bottom: 10px;
+//     }
+
+//     &__text {
+//     width: 255px;
+//     color: var(--primary-text-color);
+//     font-size: 14px;
+//     line-height: 1.7;
+//     }
+
+// }
+
