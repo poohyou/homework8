@@ -1,7 +1,14 @@
+.modal_list {
+    min-width: 100%;
+}
+
+
+
 .modal__group {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 
@@ -10,6 +17,7 @@
     font-size: 12px;
     line-height: 1.16;
     color: var(--primary-text-color);
+    letter-spacing: 0.01em;
 }
 
 

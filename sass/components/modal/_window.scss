@@ -5,8 +5,6 @@
     transform: translate(-50%, -50%);
 
 
-    width: 528px;
-    min-height: 581px;
     padding: 40px;
 
 
@@ -37,3 +35,33 @@
     }
 
 }
+
+
+
+@media screen and (max-width: 767px) { 
+    .modal { 
+        width: 95%;
+        
+    }
+
+}
+
+
+
+@media screen and (min-width: 768px) { 
+    .modal { 
+        width: 450px;
+        
+    }
+
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    
+
+
+}
+
+

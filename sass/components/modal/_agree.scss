@@ -39,8 +39,8 @@
 
     &__text {
     color: var(--primary-text-color);
-    font-size: 14px;
-    line-height: 1.7;
+    font-size: 12px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     margin-left: 8px;
     }
@@ -60,4 +60,40 @@
    height: 50px;
    padding: 10px 52px;
  
+}
+
+
+
+
+
+@media screen and (max-width: 767px) { 
+   
+
+
+}
+
+
+
+
+
+    @media screen and (min-width: 768px) { 
+    
+
+
+    }
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .modal-chekbox__text {
+        font-size: 14px;
+    line-height: 1.7;
+    }
+    
+    
+
+
 }
