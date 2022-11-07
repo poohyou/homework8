@@ -12,15 +12,29 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <header>
-      <div class="conteiner conteiner-header conteiner-header--border">
+    <header>
+      <div class="conteiner conteiner-header">
         <!-- logo -->
   
-        <a class="logo" href="/">
+        <a class="logo logo-header" href="/">
           <p class="logo__studio">
             <span class="logo__web">Web</span>Studio
           </p>
+  
+          <button type="button" class="menu-open__btn" data-menu-open>
+          <svg class="menu-open__icon" width="40" height="40">
+            <use href="./images/sprite/symbol-defs.svg#icon-burger"></use>
+          </svg>
+        </button>
         </a>
+  
+  
+  
+  
+    
+  
+  
+  
   
         <!-- navigation -->
         <nav class="nav">
@@ -44,10 +58,10 @@
           <!-- navigationRight -->
   
           <ul class="contacts">
-
-
-
-
+  
+  
+  
+  
             <li>
               
               <a class="contacts__mail contacts__mail--dec" href="mailto:info@devstudio.com">
@@ -74,7 +88,70 @@
           </ul>
         </nav>
       </div>
-    </header> -->
+  
+  
+  
+        <!-- mobile menu -->
+  
+        <div class=" conteiner mobile-menu is-open" data-menu>
+          <div class="mobile-menu__conteiner">
+  
+           <button type="button" class="mobile-menu__close-btn" data-menu-close>
+             <svg class="mobile-menu__close-icon" width="40" height="40">
+               <use href="./images/sprite/symbol-defs.svg#icon-close_burger"></use>
+             </svg>
+           </button>
+        
+           <ul class="mobile-menu-nav">
+            <li class="mobile-menu-nav__list">
+             <a class="mobile-menu-nav__place" href="/">Студія</a>
+            </li>
+            <li class="mobile-menu-nav__list">
+             <a class="mobile-menu-nav__active" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="mobile-menu-nav__list">
+             <a class="mobile-menu-nav__kontact" href="">Контакти</a>
+            </li>
+           </ul>
+  
+           
+           <ul class="mobile-menu-contacts">
+  
+            <li>
+              <a class="mobile-menu-contacts--tel" href="tel:+380961111111">
+                +38 096 111 11 11
+              </a>
+            </li>
+  
+            <li>
+              <a class="mobile-menu-contacts--mail" href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
+            </li>
+  
+          </ul>
+  
+          <ul class="mobile-menu-socials">
+            <li>
+              <a class="mobile-menu-socials__link" href="Instagram">Instagram</a>
+            </li>
+            <li>
+              <a class="mobile-menu-socials__link" href="Twitter">Twitter</a>
+            </li>
+            <li>
+              <a class="mobile-menu-socials__link" href="Facebook">Facebook</a>
+            </li>
+            <li>
+              <a class="mobile-menu-socials__link mobile-menu-socials__link--border" href="LinkedIn">LinkedIn</a>
+            </li>
+          </ul>
+  
+  
+           
+  
+        </div>
+        </div>
+    </header> 
 
 
        <!-- <section>
@@ -411,14 +488,17 @@
         </ul>
       </div>
        </section> -->
-    <!-- <footer>
-      <div class="footer-conteiner">
-        <div class="conteiner footer-group">
+
+
+
+    <footer>
+      <div class="conteiner footer-conteiner">
+        <div class="footer-group">
   
-          
+          <div class="footer-group__space">
   
-          <div>
-            <a class="logo" href="/">
+          <div class="footer-group__space--logo">
+            <a class="logo logo-footer" href="/">
               <p class="logo__studio logo__studio--footer">
                 <span class="logo__web">Web</span>Studio
               </p>
@@ -440,6 +520,10 @@
               </ul>
             </address>
           </div>
+  
+  
+  
+  
   
         <div class="socials-footer">
           <h3 class="footer__title">
@@ -484,7 +568,9 @@
         </div>
   
          
+      </div>
   
+        
   
           <div class="subscribe">
   
@@ -509,6 +595,6 @@
   
         </div>
       </div>
-    </footer> -->
+    </footer> 
 </body>
 </html>
