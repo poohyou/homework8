@@ -336,7 +336,7 @@ img {
   .nav {
     display: none;
   }
-  .logo {
+  .logo-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -906,7 +906,7 @@ img {
 }
 .client {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 .client__title {
   display: block;
@@ -963,21 +963,17 @@ img {
     padding-right: 32px;
   }
 }
-.footer-conteiner {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--bckground-color);
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 60px;
+.footer-group {
+  padding-bottom: 60px;
+  padding-top: 30px;
 }
 
-.logo__studio--footer {
+.logo-footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--white-color);
   margin-bottom: 20px;
+  height: 28px;
 }
 
 .port-btn {
