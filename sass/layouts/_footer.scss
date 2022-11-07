@@ -1,5 +1,7 @@
 .footer-conteiner {
             background-color: var(--bckground-color);
+            margin-right: auto;
+            margin-left: auto;
 
         }
 
@@ -149,7 +151,7 @@
 
                     &__email {
                         display: flex;
-                        width: 450px;
+                        width: 440px;
 
                         margin-bottom: 20px;
                         }

@@ -332,6 +332,10 @@ img {
   width: 145px;
 }
 
+.conteiner-header__portfolio {
+  border-bottom: 1px solid #ECECEC;
+}
+
 @media screen and (max-width: 767px) {
   .nav {
     display: none;
@@ -966,6 +970,8 @@ img {
 }
 .footer-conteiner {
   background-color: var(--bckground-color);
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer-group {
@@ -1079,7 +1085,7 @@ img {
   }
   .subscribe__email {
     display: flex;
-    width: 450px;
+    width: 440px;
     margin-bottom: 20px;
   }
 }
@@ -1157,9 +1163,7 @@ img {
   }
 }
 .port-btn {
-  padding-top: 94px;
   column-gap: 8px;
-  margin-bottom: 34px;
 }
 .port-btn--style {
   min-height: 38px;
@@ -1182,9 +1186,12 @@ img {
 
 @media screen and (max-width: 767px) {
   .port-btn {
-    padding-top: 94px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    width: 350px;
+    padding-top: 60px;
+    padding-bottom: 34px;
+    row-gap: 15px;
   }
 }/*# sourceMappingURL=main.css.map */
