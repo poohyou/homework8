@@ -963,6 +963,10 @@ img {
     padding-right: 32px;
   }
 }
+.footer-conteiner {
+  background-color: var(--bckground-color);
+}
+
 .footer-group {
   padding-bottom: 60px;
   padding-top: 30px;
@@ -976,6 +980,37 @@ img {
   height: 28px;
 }
 
+.logo__studio--footer {
+  color: var(--white-color);
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+  margin-bottom: 60px;
+}
+.address__city {
+  color: var(--white-color);
+}
+.address__link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address .address__phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 767px) {
+  .address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .address__list:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
 .port-btn {
   padding-top: 94px;
   display: flex;
