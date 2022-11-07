@@ -887,8 +887,6 @@ img {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    gap: 5%;
-    width: 1200px;
   }
   .team__title {
     font-size: 36px;
@@ -1086,7 +1084,7 @@ img {
   }
 }
 @media screen and (min-width: 768px) {
-  .footer-group__tablet {
+  .footer-group__space {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -1113,6 +1111,49 @@ img {
     display: flex;
     width: 450px;
     margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-group {
+    display: flex;
+  }
+  .logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .footer-group__space {
+    align-items: flex-start;
+  }
+  .footer-group__space--logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .socials-footer {
+    margin-left: 70px;
+    margin-right: 93px;
+  }
+  .footer__title {
+    padding-top: 12px;
+  }
+  .address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .subscribe {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .subscribe__group {
+    flex-direction: row;
+  }
+  .subscribe__email {
+    width: 358px;
+    margin-bottom: 0;
+    margin-right: 12px;
   }
 }
 .port-btn {
