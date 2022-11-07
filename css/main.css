@@ -906,7 +906,7 @@ img {
 }
 .client {
   padding-top: 60px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 .client__title {
   display: block;
@@ -943,6 +943,9 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .client {
+    padding-bottom: 65px;
+  }
   .client__img {
     width: 29%;
   }
@@ -969,7 +972,7 @@ img {
 
 .footer-group {
   padding-bottom: 60px;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 .logo-footer {
@@ -998,6 +1001,9 @@ img {
 }
 .address .address__phone {
   color: rgba(255, 255, 255, 0.6);
+}
+.address__list:not(:last-child) {
+  margin-bottom: 8px;
 }
 
 .socials-footer {
@@ -1058,11 +1064,38 @@ img {
     align-items: center;
     justify-content: center;
   }
-  .address__list:not(:last-child) {
-    margin-bottom: 8px;
-  }
   .socials-footer {
     margin-bottom: 60px;
+  }
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .subscribe__group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .subscribe__email {
+    display: flex;
+    width: 450px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-group__tablet {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .subscribe {
     display: flex;

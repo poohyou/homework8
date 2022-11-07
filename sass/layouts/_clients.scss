@@ -4,7 +4,7 @@
 
 .client {
         padding-top: 60px;
-        padding-bottom: 30px;
+        padding-bottom: 60px;
     
     
         &__title {
@@ -55,6 +55,12 @@
 
 
     @media screen and (min-width: 768px) { 
+
+      .client { 
+        padding-bottom: 65px;
+      }
+
+      
         .client__img {
         width: 29%;
         }

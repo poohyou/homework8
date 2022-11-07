@@ -7,7 +7,7 @@
 
      .footer-group {
             padding-bottom: 60px;
-            padding-top: 30px;
+            padding-top: 60px;
            
         }   
 
@@ -48,6 +48,11 @@
                     }
                     .address__phone {
                     color: rgba(255, 255, 255, 0.6);
+                    }
+
+                    &__list:not(:last-child) {
+                        margin-bottom: 8px;
+    
                     }
                 }
 
@@ -114,6 +119,7 @@
 
 
             @media screen and (max-width: 767px) { 
+
                 .address {
                     display: flex;
                     flex-direction: column;
@@ -122,10 +128,7 @@
                 }
 
 
-                .address__list:not(:last-child) {
-                    margin-bottom: 8px;
-
-                }
+               
 
                 .socials-footer {
                     margin-bottom: 60px;
@@ -151,16 +154,59 @@
                         width: 450px;
 
                         margin-bottom: 20px;
-
-                        
                         }
                       
                 }
 
-
             }
 
 
+
+
+
+
+
+
+            @media screen and (min-width: 768px) {
+
+                .footer-group__tablet {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                }
+
+                .address {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                 }
+
+                 .subscribe {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    &__group {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                   
+                    &__email {
+                        display: flex;
+                        width: 450px;
+
+                        margin-bottom: 20px;
+                        }
+                 }
+
+
+
+             }
 
   
 
