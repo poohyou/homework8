@@ -1278,6 +1278,9 @@ img {
   }
 }
 @media screen and (min-width: 768px) {
+  .conteiner-navigation {
+    width: 768px;
+  }
   .port-btn {
     display: flex;
     justify-content: center;
@@ -1285,10 +1288,22 @@ img {
     padding-top: 60px;
     margin-bottom: 30px;
   }
+  .port-img {
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    column-gap: 3%;
+    row-gap: 30px;
+    padding-bottom: 60px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .port-btn {
     padding-top: 94px;
     margin-bottom: 50px;
+  }
+  .port-img {
+    padding-bottom: 94px;
+    justify-content: center;
   }
 }/*# sourceMappingURL=main.css.map */
