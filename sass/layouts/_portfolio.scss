@@ -86,8 +86,8 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
         line-height: 1.55;
         padding-left: 24px;
         padding-right: 24px;
-        padding-top: 64px;
-        padding-bottom: 64px;
+        padding-top: 34px;
+        padding-bottom: 34px;
         color: var(--white-color);
         letter-spacing: 0.03em;
         background: rgba(33, 150, 243, 0.9);
@@ -103,6 +103,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
                 padding-bottom: 20px;
                 padding-left: 24px;
                 }
+
      .port-img__title {
                 font-size: 18px;
                 line-height: 2;
@@ -113,6 +114,35 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
                 font-size: 16px;
                 line-height: 1.9;
                 }
+
+
+               
+ @media screen and (max-width: 420px) { 
+                    .port-img__text {
+                        font-size: 14px;
+                        line-height: 1.55;
+                       
+                        padding-bottom: 30px;
+                        padding-top: 30px;
+                    }
+
+
+                }
+
+
+
+
+       
+@media screen and (min-width: 430px) {
+                    .port-img__text {
+                        padding-top: 47px;
+                        padding-bottom: 47px;
+                       
+                       
+                    }
+                }       
+
+
 
 
 
@@ -132,7 +162,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
         flex-wrap: wrap;
         justify-content: flex-start;
 
-        width: 450px;
+        min-width: 290;
 
         padding-top: 60px;
         padding-bottom: 34px;  
@@ -148,14 +178,12 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
       justify-content: center;
 
         padding-bottom: 60px;
-        width: 450px;
+        min-width: 290px;
+        max-width: 450px;
+        
 
        
-        &__text {
-            padding-top: 77px;
-            padding-bottom: 77px;
-        }
-    
+       
    
 }
 
@@ -194,6 +222,12 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 
       padding-bottom: 60px;
  }
+ .port-img__text {
+    padding-top: 67px;
+    padding-bottom: 67px;
+   
+   
+}
 
 
 

@@ -86,13 +86,17 @@
 
       
         .team__info {
-          width: 450px;
+          min-width: 290px;
           text-align: center;
           padding-top: 30px;
           }
+
+          .team__info--dec {
+            width: 100%;
+          }
       
           .team__box--img {
-            max-width: 90%;
+            max-width: 100%;
           }
 
 
