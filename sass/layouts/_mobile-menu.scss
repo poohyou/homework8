@@ -129,6 +129,8 @@
     padding-left: 15px;
 
     min-width: 290px;
+
+  
 }
 
 
@@ -141,7 +143,8 @@
     letter-spacing: 0.02em;
 
     padding: 0px 10px;
-    padding-bottom: 5px;
+    
+   
     
     color: #2196F3;
     border-right: 1px solid rgba(33, 33, 33, 0.2);
@@ -149,8 +152,15 @@
 
     &--border {
     border-right: none;
+
+
+    
     }
 } 
+
+.mobile-menu-socials__dec{
+    padding-bottom: 10px;
+}
 }
 
 

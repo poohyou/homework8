@@ -241,6 +241,9 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 
 
  @media screen and (min-width: 1200px) {
+    .conteiner-navigation {
+        width: 1200px;
+    }
 
     .port-btn{
         padding-top: 94px;
