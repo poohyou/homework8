@@ -3,7 +3,6 @@
 
 .modal-agree {
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-bottom: 30px;
 
@@ -91,6 +90,10 @@
     .modal-chekbox__text {
         font-size: 14px;
     line-height: 1.7;
+    }
+
+    .modal-agree {
+        align-items: center;
     }
     
     

@@ -76,9 +76,9 @@
          align-items: center;
          justify-content: center;
 
-         width: 450px;
-
           }
+
+          
 
           .team__box:not(:last-child) {
             margin-bottom: 30px;
@@ -91,7 +91,9 @@
           padding-top: 30px;
           }
       
-        
+          .team__box--img {
+            max-width: 90%;
+          }
 
 
 }

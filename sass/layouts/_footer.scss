@@ -2,6 +2,8 @@
             background-color: var(--bckground-color);
             margin-right: auto;
             margin-left: auto;
+            padding-left: 15px;
+            padding-right: 15px;
 
         }
 
@@ -10,6 +12,7 @@
      .footer-group {
             padding-bottom: 60px;
             padding-top: 60px;
+            justify-content: space-between;
            
         }   
 
@@ -120,6 +123,8 @@
 
             @media screen and (max-width: 767px) { 
 
+               
+
                 .address {
                     display: flex;
                     flex-direction: column;
@@ -151,7 +156,7 @@
 
                     &__email {
                         display: flex;
-                        width: 440px;
+                        width: 360px;
 
                         margin-bottom: 20px;
                         }

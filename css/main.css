@@ -75,7 +75,7 @@ img {
 }
 @media screen and (min-width: 480px) {
   .conteiner {
-    min-width: 480px;
+    min-width: 320px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -324,7 +324,6 @@ img {
 
 .modal-agree {
   display: flex;
-  align-items: center;
   justify-content: center;
   margin-bottom: 30px;
 }
@@ -373,6 +372,9 @@ img {
   .modal-chekbox__text {
     font-size: 14px;
     line-height: 1.7;
+  }
+  .modal-agree {
+    align-items: center;
   }
 }
 .logo__studio {
@@ -896,7 +898,6 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 450px;
   }
   .team__box:not(:last-child) {
     margin-bottom: 30px;
@@ -905,6 +906,9 @@ img {
     width: 450px;
     text-align: center;
     padding-top: 30px;
+  }
+  .team__box--img {
+    max-width: 90%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1020,11 +1024,14 @@ img {
   background-color: var(--bckground-color);
   margin-right: auto;
   margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .footer-group {
   padding-bottom: 60px;
   padding-top: 60px;
+  justify-content: space-between;
 }
 
 .logo-footer {
@@ -1133,7 +1140,7 @@ img {
   }
   .subscribe__email {
     display: flex;
-    width: 440px;
+    width: 360px;
     margin-bottom: 20px;
   }
 }
