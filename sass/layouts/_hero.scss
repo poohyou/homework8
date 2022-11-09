@@ -183,6 +183,31 @@
 
 
 
+@media screen and (max-width: 1600px) {
+    .hero {
+        background-color: #C4C4C4;
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/desktop/hero/Img.jpg);
+        background-size: contain;
+    
+        
+         }
+
+
+
+
+    
+    @media (main-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .hero {
+            background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/desktop/hero/Img@2x.jpg);
+            background-color: #C4C4C4;
+            background-size: contain;
+           
+        }
+
+}
+}
+
+
 
 
 
