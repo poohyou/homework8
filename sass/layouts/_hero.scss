@@ -95,7 +95,7 @@
 
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
 
     .conteiner-hero {
         min-width: 1200px;
@@ -130,12 +130,7 @@
            
         }
 
-        @media screen and (min-width: 1200px) { 
-            .hero {
-              
-               
-               
-            }
+      
             
             
             @media (main-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
