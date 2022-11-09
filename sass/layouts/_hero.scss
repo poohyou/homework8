@@ -87,6 +87,12 @@
     }
 }
 
+
+
+
+
+
+
 @media screen and (min-width: 1200px) {
 
     .conteiner-hero {
@@ -101,7 +107,8 @@
     max-width: 1600px;
 
     justify-content: center;
-   
+
+    
      }
 
     .hero__title {
@@ -117,7 +124,7 @@
            
         }
 
-        @media screen and (min-width: 768px) { 
+        @media screen and (min-width: 1200px) { 
             .hero {
                 background-color: #C4C4C4;
                 background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/desktop/hero/Img.jpg);

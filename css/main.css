@@ -726,14 +726,14 @@ img {
     width: 216px;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 768px) {
+@media screen and (min-width: 1200px) and (min-width: 1200px) {
   .hero {
     background-color: #C4C4C4;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/desktop/hero/Img.jpg);
     background-size: contain;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 768px) and (main-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-width: 768px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1200px) and (min-width: 1200px) and (main-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/desktop/hero/Img@2x.jpg);
     background-color: #C4C4C4;
