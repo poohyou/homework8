@@ -65,71 +65,62 @@
 
 
 
-    @media screen and (min-width: 768px) { 
-        .hero {
+
+    @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+        .hero { 
             background-color: #C4C4C4;
             background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/tablet/hero/headerimg.jpg);
             background-size: cover;
-
-            
-           
-           
         }
-        
-        
         @media (main-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
             .hero {
-                background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/tablet/hero/headerimg@2x.jpg);
+                background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/tablet/hero/headerimg@2x.jpg');
                 background-color: #C4C4C4;
                 background-size: cover;
-
-                max-width: 1199.98px;
                
             }
-
-        
+        }
     }
-}
 
 
-@media screen  and (max-width: 1199.98px) { 
-    .hero {
-        background-color: #C4C4C4;
-        background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/tablet/hero/headerimg.jpg);
-        background-size: cover;
+    @media screen and (min-width: 1200px) and (max-width: 1600px) {
 
-        
-       
-       
-    }
-    
-    
-    @media (main-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-        .hero {
-            background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/tablet/hero/headerimg@2x.jpg);
+        .hero { 
             background-color: #C4C4C4;
-            background-size: cover;
-
-            max-width: 1199.98px;
-           
+            background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/desktop/hero/img.jpg);
+            background-size: contain;
         }
 
-    
-}
-
-}
-
-
-
-
-
-
-
+     @media (main-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            .hero {
+                background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/desktop/hero/img@2x.jpg');
+                background-color: #C4C4C4;
+                background-size: contain;
+               
+            }
+        }
+    }
 
 
 
 
-@media screen and (min-width: 1200px) and (max-width: 1600px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
 
     .conteiner-hero {
         min-width: 1200px;
@@ -140,15 +131,9 @@
 
     .hero {
     padding: 200px 0px;
-    max-width: 1600px;
 
     justify-content: center;
 
-    background-color: #C4C4C4;
-    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/desktop/hero/Img.jpg);
-    background-size: contain;
-
-    
      }
 
     .hero__title {
@@ -156,7 +141,6 @@
        font-weight: 900;
        font-size: 44px;
        line-height: 1.36;
-
         }
 
         .hero__btn {
@@ -164,48 +148,12 @@
            
         }
 
-      
-            
-            
-            @media (main-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-                .hero {
-                    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/desktop/hero/Img@2x.jpg);
-                    background-color: #C4C4C4;
-                    background-size: contain;
-                   
-                }
-    
-            
-        }
-
-        
+          
 }
 
 
 
-@media screen and (max-width: 1600px) {
-    .hero {
-        background-color: #C4C4C4;
-        background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/desktop/hero/Img.jpg);
-        background-size: contain;
-    
-        
-         }
 
-
-
-
-    
-    @media (main-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-        .hero {
-            background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/desktop/hero/Img@2x.jpg);
-            background-color: #C4C4C4;
-            background-size: contain;
-           
-        }
-
-}
-}
 
 
 
