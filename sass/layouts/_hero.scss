@@ -1,6 +1,10 @@
 
   @media screen and (min-width: 1200px) {
 
+    .hero {
+        max-width: 1600px;
+    }
+
     .hero { 
         background-color: #C4C4C4;
         background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('/images/desktop/hero/Img.jpg');
@@ -20,7 +24,7 @@
             
             background-size: contain;
 
-            max-width: 1600px;
+           
            
         }
     }
