@@ -4,6 +4,7 @@
     .hero { 
         background-color: #C4C4C4;
         background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/desktop/hero/img.jpg');
+        
         background-size: contain;
 
 
@@ -14,8 +15,9 @@
 
  @media (main-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .hero {
-            background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/desktop/hero/img@2x.jpg');
             background-color: #C4C4C4;
+            background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/desktop/hero/img@2x.jpg');
+            
             background-size: contain;
 
             max-width: 1600px;
@@ -31,12 +33,14 @@
     .hero { 
         background-color: #C4C4C4;
         background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/tablet/hero/headerimg.jpg');
+        
         background-size: cover;
     }
     @media (main-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .hero {
-            background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/tablet/hero/headerimg@2x.jpg');
             background-color: #C4C4C4;
+            background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/tablet/hero/headerimg@2x.jpg');
+            
             background-size: cover;
            
         }
@@ -55,12 +59,14 @@
     .hero { 
         background-color: #C4C4C4;
         background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/mob/hero/headerimg.jpg');
+        
         background-size: cover;
     }
     @media (main-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .hero {
-            background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/mob/hero/headerimg@2x.jpg');
             background-color: #C4C4C4;
+            background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/mob/hero/headerimg@2x.jpg');
+            
             background-size: cover;
            
         }
