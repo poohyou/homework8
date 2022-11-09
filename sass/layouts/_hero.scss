@@ -3,7 +3,7 @@
 
     .hero { 
         background-color: #C4C4C4;
-        background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/desktop/hero/img.jpg);
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/desktop/hero/img.jpg');
         background-size: contain;
 
 
@@ -30,7 +30,7 @@
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
     .hero { 
         background-color: #C4C4C4;
-        background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/tablet/hero/headerimg.jpg);
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/tablet/hero/headerimg.jpg');
         background-size: cover;
     }
     @media (main-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -54,7 +54,7 @@
 @media screen and (max-width: 767px) {
     .hero { 
         background-color: #C4C4C4;
-        background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/mob/hero/headerimg.jpg);
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/mob/hero/headerimg.jpg');
         background-size: cover;
     }
     @media (main-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
